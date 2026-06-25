@@ -1,0 +1,17 @@
+{
+  "name": "notch-playwright-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "auth:login": "npx tsx scripts/manual-login.ts",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:email-pattern": "playwright test tests/specs/automation-audit/email-pattern-unassignment.spec.ts --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.0"
+  }
+}

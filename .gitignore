@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+playwright-report/
+playwright/.auth/
+blob-report/
+*.log
+
+# Saved Google session — never commit
+playwright/.auth/user.json
+playwright/.auth/chrome-profile/
