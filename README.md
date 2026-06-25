@@ -4,38 +4,38 @@
 
 ## 1. Smoke
 
-| ID     | Test Case                                                 
-| ------ | --------------------------------------------------------- 
-| SAN-01 | Verify Automation Audit section is displayed              
-| SAN-02 | Verify all 4 rule types are displayed                     
-| SAN-03 | Verify email pattern rule triggers unassignment           
-| SAN-04 | Verify subject rule triggers unassignment                 
-| SAN-05 | Verify user message rule triggers unassignment            
-| SAN-06 | Verify assistant reply rule triggers unassignment         
-| SAN-07 | Verify conversation remains assigned when no rule matches 
-| SAN-08 | Verify multiple rule types are evaluated together         
-| SAN-09 | Verify configuration can be saved successfully            
-| SAN-10 | Verify existing configuration is loaded correctly         
+| Test Case                                                                           
+| ----------------------------------------------------------------------------------- 
+| Verify Automation Audit section is displayed              
+| Verify all 4 rule types are displayed                     
+| Verify email pattern rule triggers unassignment           
+| Verify subject rule triggers unassignment                 
+| Verify user message rule triggers unassignment            
+| Verify assistant reply rule triggers unassignment         
+| Verify conversation remains assigned when no rule matches 
+| Verify multiple rule types are evaluated together         
+| Verify configuration can be saved successfully            
+| Verify existing configuration is loaded correctly         
 
 
 ---
 
 ## 2. Regression
 
-| ID     | Test Case                                                   
-| ------ | ----------------------------------------------------------- 
-| REG-01 | Verify Automation Audit section is displayed                
-| REG-02 | Verify all 4 rule types are displayed                       
-| REG-03 | Verify email pattern rule triggers unassignment             
-| REG-04 | Verify subject rule triggers unassignment                   
-| REG-05 | Verify user message rule triggers unassignment              
-| REG-06 | Verify assistant reply rule triggers unassignment           
-| REG-07 | Verify existing configuration is preserved after changes    
-| REG-08 | Verify adding a new rule does not affect existing rules     
-| REG-09 | Verify updating a rule does not affect other rule types     
-| REG-10 | Verify deleting a rule does not affect remaining rules      
-| REG-11 | Verify multiple rule types work together correctly          
-| REG-12 | Verify conversations without matching rules remain assigned 
+| Test Case                                                   
+| ----------------------------------------------------------- 
+| Verify Automation Audit section is displayed                
+| Verify all 4 rule types are displayed                       
+| Verify email pattern rule triggers unassignment             
+| Verify subject rule triggers unassignment                   
+| Verify user message rule triggers unassignment              
+| Verify assistant reply rule triggers unassignment           
+| Verify existing configuration is preserved after changes    
+| Verify adding a new rule does not affect existing rules     
+| Verify updating a rule does not affect other rule types     
+| Verify deleting a rule does not affect remaining rules      
+| Verify multiple rule types work together correctly          
+| Verify conversations without matching rules remain assigned 
 
 ---
 
@@ -141,6 +141,8 @@
 | Verify multiple matches across different rule types trigger only one unassignment
 | Verify no duplicate automation event is created when several rule types match
 | Verify audit show the correct matching rule types when several sections match
+
+---
 
 ## 5. Performance & Reliability
 
